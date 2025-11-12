@@ -17,15 +17,19 @@ Ideal si colaboras o quieres que tu código quede bien organizado para ti misma/
 ✅ Estructura sugerida
 
 Aquí tienes el árbol de carpetas más habitual, con explicación de su propósito:
+
+
+```plaintext
 /
 ├─ index.html           ← Punto de entrada principal del sitio
 ├─ static/              ← Carpeta principal para activos estáticos
-│   ├─ css/             ← Hojas de estilo (o preprocesadores)
-│   ├─ js/              ← Código JavaScript o TypeScript (y bundles)
-│   ├─ img/             ← Imágenes (.png, .jpg, .svg, etc.)
-│   ├─ fonts/           ← Tipografías externas o personalizadas
-│   └─ libs/            ← Librerías externas que no se instalan vía paquete
+│  ├─ css/              ← Hojas de estilo (o preprocesadores)
+│  ├─ js/               ← Código JavaScript o TypeScript (y bundles)
+│  ├─ img/              ← Imágenes (.png, .jpg, .svg, etc.)
+│  ├─ fonts/            ← Tipografías externas o personalizadas
+│  └─ libs/             ← Librerías externas que no se instalan vía paquete
 └─ .gitignore           ← Define qué no subir al control de versiones
+     ← Define qué no subir al control de versiones
 
 Descripción breve
 
@@ -44,3 +48,4 @@ fonts/: Tipografías personalizadas o de terceros que incluyes manualmente.
 libs/: Si existieran librerías que no manejas vía npm/yarn o no quieres empaquetar, puedes colocarlas aquí.
 
 .gitignore: Define qué archivos/carpetas no subir al repositorio (por ejemplo node_modules/, dist/, carpetas de build, archivos temporales).
+
